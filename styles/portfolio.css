@@ -80,12 +80,13 @@ text-align:center;
 display : block;
 margin-top: 0;
 margin-left: 30px;
-border-bottom: 1px solid var(--branding-color);}
+border-bottom: 1px solid var(--branding-color);
+max-width: 200px;}
 
 .fa-brands, .fa-solid{
-    padding: 10px;
+  
 color:var(--secondary-color) ;
-margin-left: 400px;
+
 opacity:0.7;
 font-size: 30px;
 border-radius: 8px;}
@@ -96,6 +97,7 @@ color: var(--branding-color);
 }
 
 @media (max-width: 900px){
+    .container{max-width: 400px;}
     img{
         width: 50px;
     }
@@ -105,10 +107,8 @@ color: var(--branding-color);
     
     }
     h2{font-size:18px;}
-    p{font-size: 16px;}
-    .fa-brands, .fa-solid{
-       position: fixed;
-    bottom: 0;
-text-align: center;}
-   
+    p{font-size: 16px;
+ }
+ .contact-me{font-size: 10px;}
+ .fa-brands, .fa-solid{font-size: 20px;}
 }
