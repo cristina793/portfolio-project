@@ -14,14 +14,34 @@ h1{
     letter-spacing: .2rem;
     opacity:0.7;
     line-height: 1.5;}
-h2{
+
+
+.circle {
+        color: red;
+       
+    }
+p{
     opacity: 0.6;
     font-size: 24px;
+    padding-left: 10px;
+    border-left:2px solid #de1a1a;
 }
-h1,h2{
+.projects{border-left:2px solid #de1a1a;
+    border-top:2px solid #de1a1a;
+    border-top-left-radius: 1px;
+
+}
+.description{
+    text-align: left;
+    line-height: 1;
+    max-width: 400px;
+}
+
+
+h1,p{
     
- color:#0e0c0c;
- margin-left: 120px;
+ color:#2E2E2E;
+ margin-left: 70px;
  margin-right: 120px;
  
 }
@@ -39,3 +59,8 @@ img{
 margin: 20px 30px;
 border-radius: 4px;
 box-shadow: #f1eaea;}
+
+.fa-brands, .fa-solid{color:#2E2E2E ;
+padding: 10px;
+opacity:0.7;
+font-size: 20px;}
