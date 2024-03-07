@@ -1,46 +1,67 @@
 
-.container{background-color: #E8E8E8;
-max-width: 800px; 
+:root{
+    --primary-color:#E8E8E8;
+    --branding-color:#de1a1a;
+    --secondary-color:#2E2E2E;
+    --light-color:#f6f2f2 ;
+    --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+body{
+    background-color:var(--light-color) ;}
+.container{
+background-color: var(--primary-color) ;
+max-width:  800px; 
 padding: 20px;
-margin: auto;
-padding-bottom: 50px;
+margin-top: 20px;
+margin-bottom: 10px;
+padding-bottom: 80px;
 display: block;
 text-align: start;
-border-radius: 8px;}
+border-top-left-radius: 8px;
+box-shadow:var(--shadow);
+}
 
 h1{
-   
     font-size: 52px;
     letter-spacing: .2rem;
     opacity:0.7;
     line-height: 1.5;}
 
+    h2{
+         margin-top: 40px;
+        margin-right: 20px;
+        margin-left: 40px;
+        font-size: 24px;
+        letter-spacing: .2rem;
+        opacity:0.5;
+        line-height: 1.5;
+        text-align: strat;
+        padding: 30px;
 
-.circle {
-        color: red;
-       
     }
+    h2:hover{
+        text-decoration: underline var(--branding-color);
+    }
+
+
 p{
     opacity: 0.6;
     font-size: 24px;
     padding-left: 10px;
-    border-left:2px solid #de1a1a;
+    border-left:2px solid var(--branding-color);
 }
-.projects{border-left:2px solid #de1a1a;
-    border-top:2px solid #de1a1a;
-    border-top-left-radius: 1px;
 
-}
 .description{
     text-align: left;
     line-height: 1;
-    max-width: 400px;
+  
 }
+.circle{color: var(--branding-color);}
 
 
 h1,p{
     
- color:#2E2E2E;
+ color:var(--secondary-color);
  margin-left: 70px;
  margin-right: 120px;
  
@@ -54,13 +75,40 @@ h1,p{
 
 }
 img{
-    text-align:center;
-   display : block;
-margin: 20px 30px;
-border-radius: 4px;
-box-shadow: #f1eaea;}
 
-.fa-brands, .fa-solid{color:#2E2E2E ;
-padding: 10px;
+text-align:center;
+display : block;
+margin-top: 0;
+margin-left: 30px;
+border-bottom: 1px solid var(--branding-color);}
+
+.fa-brands, .fa-solid{
+    padding: 10px;
+color:var(--secondary-color) ;
+margin-left: 400px;
 opacity:0.7;
-font-size: 20px;}
+font-size: 30px;
+border-radius: 8px;}
+
+.fa-solid:hover, .fa-brands:hover { 
+
+color: var(--branding-color);
+}
+
+@media (max-width: 900px){
+    img{
+        width: 50px;
+    }
+    h1{
+        margin-top: 10px;
+        font-size: 24px;
+    
+    }
+    h2{font-size:18px;}
+    p{font-size: 16px;}
+    .fa-brands, .fa-solid{
+       position: fixed;
+    bottom: 0;
+text-align: center;}
+   
+}
