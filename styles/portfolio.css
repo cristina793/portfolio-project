@@ -17,6 +17,7 @@ font-family: var(--heading-font-family);
 font-weight: bold;}
 h1{
     font-size: 96px;
+    line-height: 1.5;
 }
 h2{font-size: 64px;}
 
@@ -40,7 +41,7 @@ font-weight: bold;}
     font-family: var(--branding-color);
     font-weight: normal;
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.5;
     color: #272142;
 }
 .btn-branding{
@@ -69,7 +70,18 @@ border: 1px solid var(--branding-color);
     padding: 120px 60px;
 }
 @media(max-width:900px){
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    h2{
+        font-size: 44px;
+    }
     .project-description
    {padding:0;
     text-align: center;
-}} 
+}
+.hero{
+    padding: 80px 20px;
+}
+  } 
