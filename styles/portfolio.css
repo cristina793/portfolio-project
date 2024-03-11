@@ -69,6 +69,19 @@ border: 1px solid var(--branding-color);
 .project-description{
     padding: 120px 60px;
 }
+.about-section h1{
+    font-size: 64px;
+    line-height:80px ;
+}
+.about-section h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.about-section-content{
+    text-align: center;
+margin: 30px;
+}
+
 @media(max-width:900px){
     h1{
         font-size: 44px;
