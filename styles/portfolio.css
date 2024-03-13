@@ -52,25 +52,23 @@ font-weight: bold;}
     line-height: 27px;
     padding: 15px 30px;
     background-color: var(--branding-color);
-        border-radius: 4px;
-        font-size: 18px;
-        line-height: 27px;
-        padding: 15px 30px;
-        color: white;
-    }
-
-  
-.btn-branding-outline{ 
- padding: 15px 30px;
-background-color: white;
-border: 1px solid var(--branding-color);
     border-radius: 4px;
     font-size: 18px;
-    line-height: 27px;
     padding: 15px 30px;
-    color:var(--branding-color);
-}
-
+    color: white;
+    }
+    .btn-branding-outline{ 
+        padding: 15px 30px;
+       background-color: white;
+       border: 1px solid var(--branding-color);
+           border-radius: 4px;
+           font-size: 18px;
+           line-height: 27px;
+           padding: 15px 30px;
+           color:white;
+       }
+       
+  
 .project-description{
     padding: 120px 60px;
 }
